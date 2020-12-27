@@ -4,7 +4,6 @@ import ReactAnimatedWeather from 'react-animated-weather';
 
 export default function Forecast() {
     return(<div className="forecast">
-    <p>
         <div className="container">
                 <div className="col">Monday
                     <div className="row">
@@ -89,7 +88,6 @@ export default function Forecast() {
 
             </div>
 
-    </p>
     </div>)
 }
 
