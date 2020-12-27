@@ -31,7 +31,7 @@ export default function CurrentTemp() {
       </span>
       <h5>
         <strong> {temp.temperature}</strong>
-        <a href="/">°C </a>| <a href="/"> °F </a>
+        <span>°C </span>| <span> °F </span>
       </h5>
       <h6>
         {" "}

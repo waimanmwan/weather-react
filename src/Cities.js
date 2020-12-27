@@ -4,9 +4,9 @@ import './Cities.css';
 export default function Cities() {
     return( <ul className="container city">
     <div className="row">
-    <ol className="col"><a href="">Paris</a></ol>
-    <ol className="col"><a href="">London</a></ol>
-    <ol className="col"><a href="">Beijing</a></ol>
-    <ol className="col"><a href="">Tokyo</a></ol>
+    <ol className="col">Paris</ol>
+    <ol className="col">London</ol>
+    <ol className="col">Beijing</ol>
+    <ol className="col">Tokyo</ol>
     </div>
 </ul>);}
