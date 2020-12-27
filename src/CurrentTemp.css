@@ -1,0 +1,40 @@
+h1,
+h2,
+h3,
+h5,
+h6 {
+text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 5px;
+  margin-top: 20px;
+}
+h1 {
+  font-size: 55px;
+  letter-spacing: 8px;
+  color: #000000;
+}
+
+h2,
+h3 {
+  font-size: 15px;
+  color: #d49a89;
+}
+
+h4{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.CurrentWeatherIcon {
+  text-align: center;
+  font-size: 100px;
+}
+
+h5 {
+  font-size: 15px;
+  color: #27496d;
+}
+
+h6 {
+  font-size: 13px;
+  color: #776d8a;
+}

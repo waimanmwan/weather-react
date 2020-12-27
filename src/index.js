@@ -1,12 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Search  from './Search';
+import CurrentTemp from './CurrentTemp';
+import Forecast from './Forecast';
+import Cities from './Cities';
+import BuiltBy from './BuiltBy';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div className="background">
+    <Search />
+    <br/>
+    <CurrentTemp/>
+    <hr/>
+    <br/>
+    <Forecast/>
+    <hr/>
+    <br/>
+    <Cities/>
+    <br/>
+    <BuiltBy/>
+    <br/>
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );

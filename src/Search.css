@@ -1,0 +1,22 @@
+.Search {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.searchButton,
+.currentButton {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #f1f6f9;
+  border: #5c969e;
+  color: #5c969e;
+  border-radius: 5px;
+  margin: 0px, 0px, 0px, 10px;
+  margin-left: 10px;
+  font-size: 15px;
+
+}
+
+.searchButton:hover,
+.currentButton:hover {
+  background-color: #27496d;
+}
