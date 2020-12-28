@@ -1,5 +1,6 @@
 import React from "react";
 import './CurrentTemp.css';
+import axios from 'axios';
 import ReactAnimatedWeather from 'react-animated-weather';
 
 export default function CurrentTemp() {

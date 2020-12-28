@@ -1,8 +1,25 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import React from 'react';
+import './App.css';
+import Search  from './Search';
+import CurrentTemp from './CurrentTemp';
+import Forecast from './Forecast';
+import Cities from './Cities';
+import BuiltBy from './BuiltBy';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+export default function App(){
+  return(
+    <div className="background">
+    <Search />
+    <br/>
+    <CurrentTemp/>
+    <hr/>
+    <br/>
+    <Forecast/>
+    <hr/>
+    <br/>
+    <Cities/>
+    <br/>
+    <BuiltBy/>
+    <br/>
+    </div>
+  );}
