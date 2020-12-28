@@ -1,6 +1,5 @@
 import React from "react";
 import './CurrentTemp.css';
-import axios from 'axios';
 import ReactAnimatedWeather from 'react-animated-weather';
 
 export default function CurrentTemp() {
@@ -19,6 +18,11 @@ export default function CurrentTemp() {
 
   return (
     <div >
+      <form className="search" >
+        <input className="searchBar" type="search" placeholder="Enter a City..." />
+        <input className="searchButton" type="submit" value="SEARCH" />
+        <input className="currentButton" type="submit" value="CURRENT" />
+      </form>
       <h1> {cityLocation.location} </h1>
       <h2> {nowTime.time} </h2>
       <h3> {nowTime.date} </h3>
