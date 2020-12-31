@@ -4,12 +4,13 @@ import Forecast from './Forecast';
 import Cities from './Cities';
 import BuiltBy from './BuiltBy';
 import './App.css';
-import './Search.css';
+
 
 
 export default function App(){
   return(
-<div className="background">
+<div className="App">
+  <div className="container">
     <CurrentTemp/>
     <hr/>
     <br/>
@@ -20,4 +21,5 @@ export default function App(){
     <br/>
     <BuiltBy/>
     <br/>
+    </div>
     </div>);}
