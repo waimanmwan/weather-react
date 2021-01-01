@@ -6,6 +6,7 @@ export default function CurrentDate (props){
 
     let date = props.date.getDate();
 
+
     let months = [
         "Jan",
         "Feb",
@@ -21,7 +22,7 @@ export default function CurrentDate (props){
         "Dec"
       ];
 
-      let month = months[props.date.getMonth()];
+    let month = months[props.date.getMonth()];
 
     let hours = props.date.getHours();
     if (hours <10){
