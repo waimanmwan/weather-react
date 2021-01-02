@@ -1,17 +1,14 @@
 import React from "react";
 import CurrentDate from "./CurrentDate"
-import ReactAnimatedWeather from 'react-animated-weather';
+import CurrentIcon from "./CurrentIcon"
+
 
 export default function CurrentTemp(props){
   return (<div>
     <h1> {props.data.city} </h1>
         <h2><CurrentDate date={props.data.date}/> </h2>
         <span className="CurrentWeatherIcon">
-        <h4>      <ReactAnimatedWeather
-          icon={props.data.icon}
-          color="goldenrod"
-          size={60}
-          animate={true}
+        <h4>    <CurrentIcon code={props.data.icon}
         /></h4>
         </span>
         <h5>
