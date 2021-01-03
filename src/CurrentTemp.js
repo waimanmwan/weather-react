@@ -1,6 +1,7 @@
 import React from "react";
-import CurrentDate from "./CurrentDate"
-import CurrentIcon from "./CurrentIcon"
+import CurrentDate from "./CurrentDate";
+import CurrentIcon from "./CurrentIcon";
+import Conversion from "./Conversion";
 
 
 export default function CurrentTemp(props){
@@ -12,8 +13,7 @@ export default function CurrentTemp(props){
         /></h4>
         </span>
         <h5>
-          <strong> {Math.round(props.data.temperature)}</strong>
-          <span>°C </span>| <span> °F </span>
+          <Conversion celsius={props.data.temperature}/>
         </h5>
         <h6>
           {" "}
