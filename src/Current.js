@@ -3,6 +3,7 @@ import axios from 'axios';
 import './Current.css';
 import './Search.css';
 import CurrentTemp from "./CurrentTemp";
+import Forecast from "./Forecast";
 
 export default function Current(props){
   const [weather, setWeather]= useState({ready: false});
@@ -50,7 +51,10 @@ export default function Current(props){
     </form>
 
   <CurrentTemp data={weather}/>
-    
+  <hr/>
+  <br/>
+  <Forecast city={weather.city}/>
+  <br/>
     </div>
     );
   }

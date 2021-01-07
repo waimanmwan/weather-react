@@ -1,6 +1,11 @@
-.forecast {
-    font-size: 15px;
-    text-align: center;
-    font-family: monospace;
+.forecast canvas{
     color: #27496d;
-columns: 5;}
+    display:block;
+    height:30px;}
+
+    .weatherForecast{
+        text-align: center;
+        font-size: 15px;
+        font-family: monospace;
+        color: #27496d;
+    }
