@@ -1,11 +1,12 @@
-.forecast canvas{
+.weatherForecast canvas{
     color: #27496d;
     display:block;
-    height:30px;}
+    height:30px;
+margin:0 auto;}
 
-    .weatherForecast{
+    .weatherForecast {
         text-align: center;
         font-size: 15px;
-        font-family: monospace;
+        font-family: courier;
         color: #27496d;
     }

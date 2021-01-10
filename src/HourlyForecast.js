@@ -17,8 +17,8 @@ return `${temperature}°C`;
 
     return(
 <div className="HourlyForecast col">
- {hours()}
+<strong> {hours()}</strong>
  <CurrentIcon code= {props.data.weather[0].icon}/>
- {temperature()}
+ <strong> {temperature()}</strong>
  </div>
     )}

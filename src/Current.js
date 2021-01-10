@@ -5,6 +5,7 @@ import './Search.css';
 import CurrentTemp from "./CurrentTemp";
 import Forecast from "./Forecast";
 
+
 export default function Current(props){
   const [weather, setWeather]= useState({ready: false});
   const [city, setCity]= useState (props.defaultCity);
@@ -47,7 +48,6 @@ export default function Current(props){
       <form className="searching" onSubmit={handleSubmit}>
       <input className="searchBar" type="search" autoFocus="on" placeholder="Enter a City..." onChange={handleSearchCity} />
       <input className="searchButton" type="submit" value="SEARCH" />
-      <input className="currentButton" type="submit" value="CURRENT" />
     </form>
 
   <CurrentTemp data={weather}/>

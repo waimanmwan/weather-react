@@ -3,7 +3,7 @@ h2,
 h5,
 h6 {
 text-align: center;
-  font-family: "Courier New", Courier, monospace;
+font-family: courier;
   letter-spacing: 5px;
   margin-top: 20px;
 }
@@ -13,18 +13,21 @@ h1 {
   color: #000000;
 }
 
-h2{
+.timeDate{
+  margin: 5px auto;
   font-size: 15px;
   color: #d49a89;
+
 }
 
 h4{
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.CurrentWeatherIcon {
-  text-align: center;
-  font-size: 100px;
+.CurrentWeatherIcon canvas{
+  display: block;
+  margin: 0 auto;
+
 }
 
 h5 {
